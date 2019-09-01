@@ -1,0 +1,425 @@
+RRRRUULLLUURRRUURRDDDDLRUUUUUUURRUUULLLLLLLLLLLLDDLLDDDDLLLLUUDDDDRRDDLLDDLLLLUUURRUULLUURRUUURRUULLLLDDDRRDDLLDDRRDDDLDRRURRRDDRRRRRRRLLLUUURRRUULLLUULRUURRRUULLLRRRDDRRUURRRUDRRDRRDRRDDLLLRRRDDLLRRRRLLRRUURRDDRRRRUUULLDLRUUURRUULLUUULLUURRRRDDDLUULL
+
+
+self.generalize = \
+              "CCCCCC"\
+              + "LCCCCCCCCCCCCCC"\ # cannot turn right!!!
+              + "DCCCCCCCCCCCC"\ # cannot turn up(or right)!!!
+              # + "LCCCCCCC"\ # cannot turn right!!!
+              # + "LCCCCCCCCC"\ # cannot turn down!!!
+              # + "LCCCCC"\ # cannot turn right!!!
+              # + "LCCCCCCCCCCC"\ # cannot turn right!!!
+              # + "LCCCC"\ # cannot turn down!!!
+              # + "L"\ # cannot turn up!!!
+              # + "L" # cannot turn up!!!
+              # + "LCCCC"\ # cannot turn up!!!
+              # + "RCCCCCCCCCCCCCCCCCCCCCCCC"\ # cannot turn down!!!
+              # + "LCCCCCCCCCC"\ # cannot turn right or down!!!
+              # + "RCCCC"\ # cannot turn up
+              # + "LCCCCCCCCCCCCC"\ # cannot turn right
+              # + "LCCCCCCCCCCCCCCCCCCCCCC"\ # cannot turn up
+              # + "LCCCCC"\ # cannot turn down
+              # + "LCCCCCCCCCCCCCCCCCCCCCCCCC"\ # cannot turn down
+              # + "DCCCCCCCCCCCC"\ # cannot turn up
+              # + "LLCCCCCCCCCCCCCC" # cannot turn right or up!!! cannot turn up!!!
+
+
+*** Warning: Equal Cost Actions Exist ***
+[['East'], ['West']]
+Agent chose to go East instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['East'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['South'], ['East']]
+Agent chose to go South instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['East', 'North', 'North', 'North', 'North', 'North'], ['East', 'North', 'North', 'North', 'North', 'East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North', 'North', 'North', 'North', 'North'], ['North', 'North', 'North', 'North', 'East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North', 'North', 'North', 'North'], ['North', 'North', 'North', 'East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North', 'North', 'North'], ['North', 'North', 'East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North', 'North'], ['North', 'East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['West']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['East'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['East'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['East'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['South']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['West']]
+Agent chose to go South instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['West']]
+Agent chose to go South instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['East']]
+Agent chose to go East instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['South']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['West']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['East'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['East']]
+Agent chose to go East instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['East'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['East']]
+Agent chose to go South instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['East']]
+Agent chose to go South instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['South']]
+Agent chose to go South instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['East'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['West']]
+Agent chose to go West instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['East']]
+Agent chose to go South instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['North'], ['East']]
+Agent chose to go North instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['East']]
+Agent chose to go South instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['East']]
+Agent chose to go South instead
+*** END ***
+
+*** Warning: Equal Cost Actions Exist ***
+[['South'], ['East']]
+Agent chose to go South instead
+*** END ***
+
+
+
+
+
+self.mazeDistances = dict()
+        self.startGameState = state
+        self.foodGrid = state.getFood()
+        self.wallGrid = state.getWalls()
+        self.width = self.wallGrid.width
+        self.height = self.wallGrid.height
+        self.preferableShifts = [
+            (-1, 0, 1),
+            (0, -1, 1),
+            (-2, 0, 2),
+            (0, -2, 2),
+            (-1, -1, 2)
+        ]
+        self.moves = util.Queue()
+
+self.count = 0
+
+# self.hardcode = \
+        #       "RRRRUULLLUURRRUUUULRDDRRDDDDLRUUUUUUURRUUULLLLLLLLLLLLLLLLDDDDUUUURRRRDDLLDDDDLLLLUUDDDDRRDDLLDDLLLLUUURRUULLUURRUUURRUULLLLDDDRRDDLLDDRRDDDLD"\
+        #     + "RRURRRDDRRRRRRRLLLUULLUUDDRRRRRUULLLUULRUURRRUULLRRDDRRUURRRUDRRDRRDRRDDLLLRRRDDLLDDDDLLRRUURRDDRRRRUUULLDLRUUURRUULLUUULLUURRRRDDDLUULL"
+
+        self.generalize = \
+              "CCCCCC"\
+              + "LCCCCCCCCCCCCCC"\
+              + "DCCCCCCCCCCCC"\
+              + "LCCCCCCC"\
+              + "LCCCCCCCCC"\
+              + "LCCCCC"\
+              + "LCCCCCCCCCCC"\
+              + "LCCCC"\
+              + "L"\
+              + "L"\
+              + "LCCCC"\
+              + "RCCCCCCCCCCCCCCCCCCCCCCCC"\
+              + "LCCCCCCCCCC"\
+              + "RCCCC"\
+              + "LCCCCCCCCCCCCC"\
+              + "LCCCCCCCCCCCCCCCCCCCCCC"\
+              + "LCCCCC"\
+              + "LCCCCCCCCCCCCCCCCCCCCCCCCC"\
+              + "DCCCCCCCCCCCC"\
+              + "LLCCCCCCCCCCCCCC"
+
+self.translate = {"R": Directions.EAST, "L": Directions.WEST, "U": Directions.NORTH, "D": Directions.SOUTH}
+        # self.actions = [self.translate[self.hardcode[i]] for i in range(len(self.hardcode))]
+
+
+# problem = AnyFoodSearchProblem(state)
+        # actions = search.breadthFirstSearch(problem)
+        # return actions[0]
+
+        # return self.actions.pop(0)
+
+# problem = AnyFoodSearchProblem(state)
+        # actions = search.breadthFirstSearch(problem)
+        # return actions[0]
+
+        # return self.actions.pop(0)
+
+# if len(self.actions) == 0:
+        #     c = self.generalize[self.count]
+        #     if c in self.translate.keys():
+        #         self.actions.append(self.translate[c])
+        #     elif c == "C":
+        #         equal_cost_actions = self.equalCostActions(state)
+        #         self.actions = self.actions + equal_cost_actions[0]
+        #     self.count = self.count + 1
+        #
+        # # equal_cost_actions = self.equalCostActions(state)
+        # if len(equal_cost_actions) > 1:
+        #     # print "*** Warning: Equal Cost Actions Exist ***"
+        #     # print equal_cost_actions
+        #     # print "Agent chose to go {} instead".format(self.actions[-1])
+        #     # print "*** END ***\n"
+        #     pass
+        #
+        # cases = ([[Directions.NORTH], [Directions.SOUTH], Directions.SOUTH],
+        #              [[Directions.NORTH], [Directions.EAST], Directions.EAST],
+        #              [[Directions.NORTH], [Directions.WEST], Directions.NORTH],
+        #              [[Directions.SOUTH], [Directions.EAST], Directions.EAST],
+        #              [[Directions.SOUTH], [Directions.WEST], Directions.SOUTH],
+        #              [[Directions.EAST], [Directions.WEST], Directions.EAST])
+        #
+        # equal_cost_actions.append(self.actions[-1])
+        # # if equal_cost_actions in cases:
+        # #     time.sleep(5)
+        #
+        # return self.actions.pop(0)
+
+
+        # if not self.moves.isEmpty():
+        #     return self.moves.pop()
+        #
+        # self.foodGrid = state.getFood()
+        # self.wallGrid = state.getWalls()
+        #
+        # x, y = state.getPacmanPosition()
+        # start_pos = (x, y)
+        # target_pos = None
+        # min_dist = 999999
+        # for dx, dy, manhattan_dist in self.preferableShifts:
+        #     newx = x + dx
+        #     newy = y + dy
+        #     if self.hasFood(newx, newy):
+        #         dist = manhattan_dist
+        #         if manhattan_dist > 1:
+        #             dist = mazeDistance(start_pos, (newx, newy), self.startGameState)
+        #         if dist < min_dist:
+        #             min_dist = dist
+        #             target_pos = (newx, newy)
+        #
+        # if target_pos is not None:
+        #     for move in search.astar(PositionSearchProblem(state, start=start_pos, goal=target_pos, warn=False),
+        #                              heuristic=manhattanHeuristic):
+        #         self.moves.push(move)
+        # else:
+        #     for move in search.bfs(AnyFoodSearchProblem(state)):
+        #         self.moves.push(move)
+        #
+        # return self.moves.pop()
+
+        
+
+    
+    def queryMazeDistance(self, start_pos, target_pos):
+        if (start_pos, target_pos) in self.mazeDistances:
+            return self.mazeDistances[(start_pos, target_pos)]
+        else:
+            return mazeDistance(start_pos, target_pos, self.startGameState)
+
+    def hasFood(self, x, y):
+        return x > 0 and y > 0 and x < self.width - 1 and y < self.height - 1 and self.foodGrid[x][y]
+
+
+    def hash(self, string):
+        res = 0
+        for i in range(len(string)):
+            if string[i] == "W":
+                res = res * 3
+            elif string[i] == "F":
+                res = res * 3 + 1
+            else:
+                res = res * 3 + 2
+        return res
+
+    def gridToString(self, state, x, y):
+        walls = state.getWalls()
+        food = state.getFood()
+        res = ""
+        for j in range(y - 2, y + 3)[::-1]:
+            for i in range(x - 2, x + 3):
+                if x == i and y == j:
+                    continue
+                if i < 0 or i >= walls.width or j < 0 or j >= walls.height or walls[i][j]:
+                    res = res + "W"
+                elif food[i][j]:
+                    res = res + "F"
+                else:
+                    res = res + "E"
+        return res

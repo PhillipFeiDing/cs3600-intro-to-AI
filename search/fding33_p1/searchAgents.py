@@ -551,7 +551,7 @@ def foodHeuristic(state, problem):
                 if food_pos in problem.heuristicInfo[position]:
                     dist = max(dist, problem.heuristicInfo[position][food_pos])
         else:
-            dist = bfs_longest_dist(position, foodGrid, total_food_count, problem.walls)
+            dist = bfs_longest_dist(position, foodGrid, total_food_count, problem.startingGameState.getWalls())
         return dist
 
     # return 0
@@ -560,7 +560,6 @@ def foodHeuristic(state, problem):
 class ClosestDotSearchAgent(SearchAgent):
     "Search for all food using a sequence of searches"
     def registerInitialState(self, state):
-        self.optimalSolutionSizeLimit = 20
         self.actions = []
         currentState = state
         while(currentState.getFood().count() > 0):
@@ -645,114 +644,17 @@ class ApproximateSearchAgent(Agent):
         "This method is called before any moves are made."
         "*** YOUR CODE HERE ***"
 
-        # import time
-        # total_start_time = time.time()
+        self.actions = []
 
-        self.all_actions = (Directions.NORTH, Directions.SOUTH, Directions.EAST, Directions.WEST)
-        self.direction_shifts = {
-            Directions.NORTH: (0, 1),
-            Directions.SOUTH: (0, -1),
-            Directions.EAST: (1, 0),
-            Directions.WEST: (-1, 0)
-        }
-        self.reverse_actions = {
-            Directions.NORTH: Directions.SOUTH,
-            Directions.SOUTH: Directions.NORTH,
-            Directions.EAST: Directions.WEST,
-            Directions.WEST: Directions.EAST
-        }
-        self.visited_sub_solution = set()
-        self.curr_sub_solution = []
-        pacman_pos = state.getPacmanPosition()
-        wall_grid = state.getWalls()
-        food_grid = state.getFood()
-        # the following line is super super important !!!
-        # this makes the maze graph able to be cut-vertex decomposed.
-        food_grid[pacman_pos[0]][pacman_pos[1]] = True
+        self.reverseDict = {Directions.NORTH: Directions.SOUTH,
+                            Directions.SOUTH: Directions.NORTH,
+                            Directions.WEST: Directions.EAST,
+                            Directions.EAST: Directions.WEST}
 
-        # start_time = time.time()
-        cut_vertices = self.get_all_cut_vertices(food_grid)
-        # print "decomposition: {} s".format(time.time() - start_time)
+        self.all_targets = 836174
+        self.count = 0
+        self.target = 1
 
-        # start_time = time.time()
-        self.vertex_solution_returning = self.find_solution_for_cut_vertices(cut_vertices, food_grid, wall_grid, returning=True)
-        # print "returning sub solution: {} s".format(time.time() - start_time)
-
-        # start_time = time.time()
-        # now we want to run SINGLE TRIP from this greatest_cost_vertex
-        vertex_with_greatest_cost = None
-        greatest_cost = 0
-        for vertex in self.vertex_solution_returning.keys():
-            sub_solution = self.vertex_solution_returning[vertex]
-            if vertex_with_greatest_cost is None or len(sub_solution) > greatest_cost:
-                greatest_cost = len(sub_solution)
-                vertex_with_greatest_cost = vertex
-        self.critical_vertex = vertex_with_greatest_cost
-        # print vertex_with_greatest_cost
-        sorted = self.cut_vertex(food_grid, vertex_with_greatest_cost)
-        sorted.sort()
-        component = sorted[0]
-        remaining_vertices = set(cut_vertices.keys()).intersection(set(component[1]))
-        remaining_vertices.add(vertex_with_greatest_cost)
-        remaining_vertices = {key: cut_vertices[key] for key in remaining_vertices}
-        self.vertex_solution_non_returning = self.find_solution_for_cut_vertices(remaining_vertices, food_grid, wall_grid, returning=False)
-        # print "non returning sub solution: {} s".format(time.time() - start_time)
-
-        # print "run time: {}s".format(time.time() - total_start_time)
-
-        # print (7, 3), self.vertex_solution_returning[(7, 3)]
-        # print (5, 7), self.vertex_solution_returning[(5, 7)]
-        # print (11, 3), self.vertex_solution_returning[(11, 3)]
-        # print (11, 13), self.vertex_solution_returning[(11, 13)]
-        # print (19, 7), self.vertex_solution_returning[(19, 7)]
-        # print (25, 7), self.vertex_solution_non_returning[(25, 7)]
-
-        # start_time = time.time()
-        # remaining dots to eat after decomposition
-        modified_food_grid = self.remove_sub_solutions(food_grid, cut_vertices)
-        adj_list = self.generate_graph(modified_food_grid, pacman_pos, vertex_with_greatest_cost)
-        # self.star_print(modified_food_grid, pacman_pos)
-
-        adj_list_keys = list(adj_list.keys())
-        adj_list_keys.sort(key=lambda vertex: len(adj_list[vertex][0][1]))
-
-        # swap the first with the non-returning vertex
-        idx = adj_list_keys.index(vertex_with_greatest_cost)
-        temp = adj_list_keys[idx]
-        adj_list_keys[idx] = adj_list_keys[0]
-        adj_list_keys[0] = temp
-
-        visited = set()
-        for vertex in adj_list_keys:
-            visited.add(vertex)
-            if len(adj_list[vertex]) > 2 or vertex == vertex_with_greatest_cost:
-                for i in range(len(adj_list[vertex])):
-                    repeated_vertex, actions = adj_list[vertex][i]
-                    if len(adj_list[repeated_vertex]) > 2 or repeated_vertex == pacman_pos:
-                        adj_list[vertex][i] = (vertex, self.cut_last_reverse_and_invert(actions))
-                        if repeated_vertex not in visited or repeated_vertex == pacman_pos:
-                            self.remove_from_adj_list(adj_list, repeated_vertex, vertex)
-                        break
-
-        # for vertex in adj_list_keys:
-        #     print vertex
-        #     for next_vertex, actions in adj_list[vertex]:
-        #         print next_vertex, actions
-        #     print " "
-
-        self.main_actions = []
-        visited = set()
-        curr_pos = pacman_pos
-        while len(visited) < len(adj_list_keys):
-            visited.add(curr_pos)
-            for next_vertex, actions in adj_list[curr_pos]:
-                if next_vertex == curr_pos:
-                    self.main_actions = self.main_actions + actions
-                    break
-            for next_vertex, actions in adj_list[curr_pos]:
-                if next_vertex not in visited:
-                    self.main_actions = self.main_actions + actions
-                    curr_pos = next_vertex
         "*** MY CODE ENDS HERE ***"
 
     def getAction(self, state):
@@ -762,343 +664,60 @@ class ApproximateSearchAgent(Agent):
         Directions.{North, South, East, West, Stop}
         """
         "*** YOUR CODE HERE ***"
-        curr_pos = state.getPacmanPosition()
-
-        # print curr_pos
-        # print(self.curr_sub_solution)
-
-        if len(self.curr_sub_solution) == 0:
-            if curr_pos in self.vertex_solution_non_returning:
-                if curr_pos not in self.visited_sub_solution:
-                    self.curr_sub_solution = self.curr_sub_solution + self.vertex_solution_non_returning[curr_pos]
-                    self.visited_sub_solution.add(curr_pos)
-            elif curr_pos in self.vertex_solution_returning:
-                if curr_pos not in self.visited_sub_solution:
-                    self.curr_sub_solution = self.curr_sub_solution + self.vertex_solution_returning[curr_pos]
-                    self.visited_sub_solution.add(curr_pos)
-
-        if self.critical_vertex in self.visited_sub_solution and len(self.main_actions) > 0:
-            return self.main_actions.pop(0)
-
-        if len(self.curr_sub_solution) > 0:
-            return self.curr_sub_solution.pop(0)
-
-        if len(self.main_actions) > 0:
-            return self.main_actions.pop(0)
-        else:
-            return Directions.STOP
+        if len(self.actions) == 0:
+            equal_cost_actions = self.equalCostActions(state)
+            if len(equal_cost_actions) <= 1:
+                self.actions = self.actions + equal_cost_actions[0]
+            else:
+                first_actions = equal_cost_actions[0]
+                if len(first_actions) > 1 or len(equal_cost_actions) > 3:
+                    self.actions = self.actions + first_actions
+                elif len(equal_cost_actions) == 3:
+                    if [Directions.WEST] in equal_cost_actions:
+                        self.actions.append(Directions.WEST)
+                    else:
+                        self.actions.append(equal_cost_actions[0][0])
+                else:
+                    possible_actions = [first_actions[0], equal_cost_actions[1][0]]
+                    if possible_actions in ([Directions.SOUTH, Directions.EAST], [Directions.NORTH, Directions.SOUTH],
+                                            [Directions.NORTH, Directions.EAST]):
+                        possible_actions = possible_actions[::-1]
+                    x, y = state.getPacmanPosition()
+                    self.count = self.count + 1
+                    if self.count == self.target:
+                        self.actions.append(possible_actions[0])
+                        self.target = self.count + self.all_targets % 10
+                        self.all_targets = self.all_targets / 10
+                    else:
+                        self.actions.append(possible_actions[1])
+        return self.actions.pop(0)
 
         util.raiseNotDefined()
         "*** MY CODE ENDS HERE ***"
 
     "*** Some other helper functions ***"
-    def star_print(self, food_grid, curr_pos):
-        for y in range(food_grid.height)[::-1]:
-            row = ""
-            for x in range(food_grid.width):
-                if (x, y) == curr_pos:
-                    row = row + "*"
-                elif food_grid[x][y]:
-                    row = row + "o"
-                else:
-                    row = row + "+"
-            print row
+    def clearFood(self, state, actions):
+        reverse_actions = [self.reverseDict[action] for action in actions[::-1]]
+        for action in actions + reverse_actions:
+            if state.isWin() or state.isLose():
+                break
+            state = state.generatePacmanSuccessor(action)
+        return state
 
-    def find_solution_for_cut_vertices(self, cut_vertices, food_grid, wall_grid, returning):
-        start_time = time.time()
-        for cut_vertex in cut_vertices.keys():
-            cut_vertices[cut_vertex].sort()
-        sorted_cut_vertices_keys = self.sorted_cut_vertices_keys(cut_vertices)
-        # print "sorting: {} s".format(time.time() - start_time)
-
-        # this is used for memorizing solutions for cut vertex positions
-        vertex_solution = {}
-        for idx in range(len(sorted_cut_vertices_keys)):
-            start_vertex = sorted_cut_vertices_keys[idx]
-            components = cut_vertices[sorted_cut_vertices_keys[idx]]
-            # always solve the smallest component problem
-            # exception: when the cut vertex divides graph into 3 components
-            smallest_component = components[0]
-            component_size, food_to_visit, allowed_actions = smallest_component
-
-            # here becomes interesting: we are using previous solutions to build this solution.
-            food_to_visit = set(food_to_visit)
-            min_prob_size = len(food_to_visit)
-            best_jdx = None
-            for jdx in range(idx):
-                food_previously_visited = set(cut_vertices[sorted_cut_vertices_keys[jdx]][0][1])
-                remain_food_to_visit = food_to_visit - food_previously_visited
-                if len(remain_food_to_visit) < min_prob_size:
-                    min_prob_size = len(remain_food_to_visit)
-                    best_jdx = jdx
-            if best_jdx is not None:
-                food_to_visit = food_to_visit - set(cut_vertices[sorted_cut_vertices_keys[best_jdx]][0][1])
-
-            modified_food_grid = food_grid.copy()
-            for x in range(modified_food_grid.width):
-                for y in range(modified_food_grid.height):
-                    if (x, y) not in food_to_visit:
-                        modified_food_grid[x][y] = False
-
-            forbidden_actions = set(self.all_actions) - set(allowed_actions)
-
-            search_prob = ReturnFoodSearchProblem(start_vertex, wall_grid, modified_food_grid, forbidden_actions,
-                                                  returning=returning)
-
-            # start_time = time.time()
-            # actions_ucs = search.ucs(search_prob)
-            # print "ucs: {} s".format(time.time() - start_time)
-
-            start_time = time.time()
-            actions_astar = search.astar(search_prob, chamber_heuristic)
-
-            # print sorted_cut_vertices_keys[idx], len(food_to_visit)
-            # print "astar: {} s".format(time.time() - start_time)
-            # print "astar: {}".format(actions_astar)
-
-            # if this solution is built upon previous solutions, we need to reconstruct!
-            if best_jdx is not None:
-                sub_vertex = sorted_cut_vertices_keys[best_jdx]
-                sub_solution = vertex_solution[sub_vertex]
-                if returning:
-                    actions_astar = self.reconstruct_path_returning(actions_astar, sub_solution, start_vertex, sub_vertex)
-                else:
-                    actions_astar = self.reconstruct_path_single(actions_astar, sub_solution, start_vertex, sub_vertex)
-                # print("this solution uses sub solution: {}".format(sub_solution))
-
-            # print "reconstruct_astar actions: {}".format(actions_astar)
-
-            # the solution should be memorized for future reference
-            vertex_solution[sorted_cut_vertices_keys[idx]] = actions_astar
-
-            # assert len(actions_ucs) == len(actions_astar)
-
-            # print "ucs: {}".format(actions_ucs)
-            # print "astar: {}".format(actions_astar)
-
-        return vertex_solution
-
-
-    def get_all_cut_vertices(self, food_grid):
-        cut_vertices = {}
-        for x in range(food_grid.width):
-            for y in range(food_grid.height):
-                if food_grid[x][y]:
-                    components = self.cut_vertex(food_grid, (x, y))
-                    if len(components) > 1:
-                        cut_vertices[(x, y)] = components
-        return cut_vertices
-
-    # for a given vertex, the function returns how this vertex divides the original food grid as a graph;
-    # a cut vertex increases the component count of the original graph. The method returns a list of triples;
-    # each triple contains the size of each component, the vertices in that component, and what actions to take from
-    # the cut vertex into that component
-    def cut_vertex(self, food_grid, vertex):
-        components = []
-        visited = set()
-        dx = (0, 0, 1, -1)
-        dy = (1, -1, 0, 0)
-        reverse_actions = {Directions.NORTH: Directions.SOUTH,
-                           Directions.SOUTH: Directions.NORTH,
-                           Directions.EAST: Directions.WEST,
-                           Directions.WEST: Directions.EAST}
-        for x in range(food_grid.width):
-            for y in range(food_grid.height):
-                if food_grid[x][y] and (x, y) != vertex and (x, y) not in visited:
-                    queue = util.Queue()
-                    queue.push(((x, y), None))
-                    curr_size = 0
-                    how_into = []
-                    component_vertices = []
-                    while not queue.isEmpty():
-                        curr_pos, prev_action = queue.pop()
-                        if curr_pos == vertex:
-                            continue
-                        if curr_pos not in visited:
-                            visited.add(curr_pos)
-                            curr_size = curr_size + 1
-                            component_vertices.append(curr_pos)
-                            for i in range(len(dx)):
-                                next_x, next_y = curr_pos[0] + dx[i], curr_pos[1] + dy[i]
-                                next_pos = (next_x, next_y)
-                                if next_pos == vertex:
-                                    how_into.append(self.reverse_actions[self.all_actions[i]])
-                                if food_grid[next_x][next_y] and next_pos not in visited:
-                                    queue.push((next_pos, self.all_actions[i]))
-                    components.append((curr_size, component_vertices, how_into))
-        return components
-
-    def sorted_cut_vertices_keys(self, cut_vertices):
-        size_vertex = []
-        for cut_vertex in cut_vertices.keys():
-            size_vertex.append((cut_vertices[cut_vertex][0][0], cut_vertex))
-        size_vertex.sort()
-        return [vertex for _, vertex in size_vertex]
-
-    def reconstruct_path_returning(self, curr_solution, sub_solution, start_vertex, sub_vertex):
-        curr_vertex = start_vertex
-        insert_idx = 0
-        while curr_vertex != sub_vertex:
-            shift = self.direction_shifts[curr_solution[insert_idx]]
-            curr_vertex = (curr_vertex[0] + shift[0], curr_vertex[1] + shift[1])
-            insert_idx = insert_idx + 1
-        return curr_solution[:insert_idx] + sub_solution + curr_solution[insert_idx:]
-
-    def reconstruct_path_single(self, curr_solution, sub_solution, start_vertex, sub_vertex):
-        curr_vertex = start_vertex
-        split_idx = 0
-        while curr_vertex != sub_vertex:
-            shift = self.direction_shifts[curr_solution[split_idx]]
-            curr_vertex = (curr_vertex[0] + shift[0], curr_vertex[1] + shift[1])
-            split_idx = split_idx + 1
-
-        if split_idx > 0 and split_idx < len(curr_solution) \
-                and self.reverse_actions[curr_solution[split_idx - 1]] == curr_solution[split_idx]:
-            return curr_solution[:split_idx - 1] + curr_solution[split_idx + 1:] \
-                   + [self.reverse_actions[each_direction] for each_direction in curr_solution[split_idx:][::-1]] \
-                   + sub_solution
-        else:
-            return curr_solution \
-                   + [self.reverse_actions[each_direction] for each_direction in curr_solution[split_idx:][::-1]] \
-                   + sub_solution
-
-    def remove_sub_solutions(self, food_grid, cut_vertices):
-        all_food = set(food_grid.asList())
-        for vertex in cut_vertices.keys():
-            all_food = all_food - set(cut_vertices[vertex][0][1])
-        modified_food_grid = food_grid.copy()
-        for x in range(modified_food_grid.width):
-            for y in range(modified_food_grid.height):
-                modified_food_grid[x][y] = False
-        for food in all_food:
-            modified_food_grid[food[0]][food[1]] = True
-        return modified_food_grid
-
-    def generate_graph(self, food_grid, pacman_pos, end_pos):
-        adj_set = set()
-        for x in range(food_grid.width):
-            for y in range(food_grid.height):
-                if food_grid[x][y]:
-                    adj_count = 0
-                    for shift in [self.direction_shifts[direction] for direction in self.all_actions]:
-                        if food_grid[x + shift[0]][y + shift[1]]:
-                            adj_count = adj_count + 1
-                    if adj_count > 2:
-                        adj_set.add((x, y))
-        adj_set.add(pacman_pos)
-        adj_set.add(end_pos)
-        adj_list = {}
-        for vertex in adj_set:
-            adj_list[vertex] = self.bfs_adj_vertex(food_grid, vertex, adj_set)
-        return adj_list
-
-    def bfs_adj_vertex(self, food_grid, start_vertex, adj_set):
-        res = []
-        queue = util.Queue()
-        visited = set()
-        queue.push((start_vertex, []))
-        while not queue.isEmpty():
-            curr_vertex, actions = queue.pop()
-            if curr_vertex != start_vertex and curr_vertex in adj_set:
-                res.append((curr_vertex, actions))
-                continue
-            if curr_vertex not in visited:
-                visited.add(curr_vertex)
-                for direction in self.all_actions:
-                    shift = self.direction_shifts[direction]
-                    next_x, next_y = curr_vertex[0] + shift[0], curr_vertex[1] + shift[1]
-                    if food_grid[next_x][next_y] and (next_x, next_y) not in visited:
-                        queue.push(((next_x, next_y), actions + [direction]))
-        return res
-
-    def cut_last_reverse_and_invert(self, actions):
-        actions = actions[:len(actions) - 1]
-        return actions + [self.reverse_actions[action] for action in actions[::-1]]
-
-    def remove_from_adj_list(self, adj_list, from_vertex, to_vertex):
-        next_vertices = adj_list[from_vertex]
-        for i in range(len(next_vertices)):
-            if next_vertices[i][0] == to_vertex:
-                next_vertices.pop(i)
-                return
+    def equalCostActions(self, state):
+        next_actions = search.bfs(AnyFoodSearchProblem(state))
+        cost = len(next_actions)
+        best_cost = cost
+        state = self.clearFood(state, next_actions)
+        equal_cost_actions = [next_actions]
+        while state.getNumFood() != 0 and cost <= best_cost:
+            next_actions = search.bfs(AnyFoodSearchProblem(state))
+            cost = len(next_actions)
+            state = self.clearFood(state, next_actions)
+            if cost <= best_cost:
+                equal_cost_actions.append(next_actions)
+        return equal_cost_actions
     "*** End of all my helper functions***"
-
-
-"*** Some new serach problems that I define ***"
-class ReturnFoodSearchProblem:
-    """
-    A search problem associated with finding the a path that collects all of the
-    food (dots) AND returns to the original position in a Pacman game.
-
-    A search state in this problem is a tuple ( pacmanPosition, foodGrid ) where
-      pacmanPosition: a tuple (x,y) of integers specifying Pacman's position
-      foodGrid:       a Grid (see game.py) of either True or False, specifying remaining food
-    """
-
-    def __init__(self, startPosition, wallGrid, foodGrid, forbiddenStartActions, returning):
-        self.startState = (startPosition, foodGrid)
-        self.walls = wallGrid
-        self.forbiddenStartActions = forbiddenStartActions
-        self.returning = returning
-        self.heuristicInfo = {}  # A dictionary for the heuristic to store information
-
-    def getStartState(self):
-        return self.startState
-
-    def isGoalState(self, state):
-        return state[1].count() == 0 and (not self.returning or state[0] == self.startState[0])
-
-    def getSuccessors(self, state):
-        "Returns successor states, the actions they require, and a cost of 1."
-        successors = []
-        for direction in [Directions.NORTH, Directions.SOUTH, Directions.EAST, Directions.WEST]:
-            if state[0] == self.startState[0] and direction in self.forbiddenStartActions:
-                continue
-            x, y = state[0]
-            dx, dy = Actions.directionToVector(direction)
-            nextx, nexty = int(x + dx), int(y + dy)
-            if not self.walls[nextx][nexty]:
-                next_food = state[1].copy()
-                next_food[nextx][nexty] = False
-                successors.append((((nextx, nexty), next_food), direction, 1))
-        return successors
-
-    def getGoalPosition(self):
-        return self.startState[0]
-"*** End of search problem definition ***"
-
-"*** Some new heuristic I created for eating large chunks of food ***"
-def chamber_heuristic(state, problem):
-    position, foodGrid = state
-    goal_position = problem.getGoalPosition()
-    food_list = foodGrid.asList()
-    if len(food_list) == 0:
-        if problem.returning:
-            return util.manhattanDistance(position, goal_position)
-        else:
-            return 0
-    else:
-        if problem.returning:
-            return closest_manhattan_dist(problem, position, food_list) + len(food_list) + closest_manhattan_dist(problem, goal_position, food_list)
-        else:
-            return closest_manhattan_dist(problem, position, food_list) + len(food_list)
-
-
-def closest_manhattan_dist(problem, position, food_list):
-    min_dist = 999999
-    for food in food_list:
-        min_dist = min(query_manhattan_distance(problem, position, food), min_dist)
-    return min_dist
-
-
-def query_manhattan_distance(problem, position1, position2):
-    if (position1, position2) not in problem.heuristicInfo and (position2, position1) not in problem.heuristicInfo:
-        problem.heuristicInfo[(position1, position2)] = util.manhattanDistance(position1, position2)
-    if (position2, position1) not in problem.heuristicInfo:
-        problem.heuristicInfo[(position2, position1)] = problem.heuristicInfo[(position1, position2)]
-    return problem.heuristicInfo[(position1, position2)]
-"*** End of my heuristic definition ***"
-
 
 def mazeDistance(point1, point2, gameState):
     """

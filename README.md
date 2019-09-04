@@ -4,7 +4,7 @@
 
 **This repo is private, so if for any reason this is visible to you but you are not the author there is a huge problem.**
 
----
+*This repo will be public after I graduate.*
 
 # Introduction
 

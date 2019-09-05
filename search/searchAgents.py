@@ -634,12 +634,22 @@ class AnyFoodSearchProblem(PositionSearchProblem):
 class ApproximateSearchAgent(Agent):
     "Implement your contest entry here.  Change anything but the class name."
 
-    # The agent basically finds the closest food possible, but when two or more foods are of the same distance, it makes
-    # a deliberate choice between what it can do. If it can go west, then it goes west; when it has the option to go
-    # east or another direction, it prefers to go the other direction; when making a choice between north and south, it
-    # goes north. When encountering a large room (rectangle) with lots of food, it follows the edges and corners of the
-    # room and only goes into the center regions after consuming foods in the deeper maze world and coming back the the
-    # same room. It also eats extra dots branching out in path to avoid walking a long distance to come back.
+    # The agent perceives the the food grid as a huge graph, and its job is to visit each node while walking the minimum
+    # number of edges (moves). The original problem size is too large for solving even when using Astar with a brilliant
+    # heuristic. However, the good news is that this graph is mostly connected and loose, so it is possible to perform a
+    # bi-component decomposition on the original graph, where each smaller component can be solved independently for
+    # constructing the whole (it can be proved that combining each solution for the bi-connected component always yields
+    # the opitional solution for the whole). Therefore, we are solving a lot of tiny-sized problems so that we can run
+    # a-star on these small subgraphs and then reconstruct path by joining up them. After this kind of decomposition and
+    # dynamic-programming-like procedure, we still have a huge component left: the center, a tough guy with over 100
+    # food dots. Instead of directly calling astar search on this graph, the agent simplifies it and only considers the
+    # food dots adjacent to at least 3 other food dots. These will be the new vertices, while the others are only
+    # considered to be edges. Now the problem is ready to be solved since we have reduced it to P-class (solved in
+    # polynomial time): finding a circuit that goes through every edge, kind-of similar to the Chinese Postman Problem.
+    # The solution is combined with the ones we previously found to yield the final path.
+    # This appoximate search agent should return a path of cost 276 for the big search.
+    # A side node: this approach works perfect on large size problems, but it does have one drawback in its assumption:
+    # the food grid must be connected, meaning it has only one component
 
     def registerInitialState(self, state):
         "This method is called before any moves are made."
@@ -699,13 +709,6 @@ class ApproximateSearchAgent(Agent):
         # print "non returning sub solution: {} s".format(time.time() - start_time)
 
         # print "run time: {}s".format(time.time() - total_start_time)
-
-        # print (7, 3), self.vertex_solution_returning[(7, 3)]
-        # print (5, 7), self.vertex_solution_returning[(5, 7)]
-        # print (11, 3), self.vertex_solution_returning[(11, 3)]
-        # print (11, 13), self.vertex_solution_returning[(11, 13)]
-        # print (19, 7), self.vertex_solution_returning[(19, 7)]
-        # print (25, 7), self.vertex_solution_non_returning[(25, 7)]
 
         # start_time = time.time()
         # remaining dots to eat after decomposition
@@ -792,17 +795,18 @@ class ApproximateSearchAgent(Agent):
         "*** MY CODE ENDS HERE ***"
 
     "*** Some other helper functions ***"
-    def star_print(self, food_grid, curr_pos):
-        for y in range(food_grid.height)[::-1]:
-            row = ""
-            for x in range(food_grid.width):
-                if (x, y) == curr_pos:
-                    row = row + "*"
-                elif food_grid[x][y]:
-                    row = row + "o"
-                else:
-                    row = row + "+"
-            print row
+    # # used for debugging
+    # def star_print(self, food_grid, curr_pos):
+    #     for y in range(food_grid.height)[::-1]:
+    #         row = ""
+    #         for x in range(food_grid.width):
+    #             if (x, y) == curr_pos:
+    #                 row = row + "*"
+    #             elif food_grid[x][y]:
+    #                 row = row + "o"
+    #             else:
+    #                 row = row + "+"
+    #         print row
 
     def find_solution_for_cut_vertices(self, cut_vertices, food_grid, wall_grid, returning):
         start_time = time.time()

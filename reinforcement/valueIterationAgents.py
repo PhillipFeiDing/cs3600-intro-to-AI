@@ -45,6 +45,22 @@ class ValueIterationAgent(ValueEstimationAgent):
 
         # Write value iteration code here
         "*** YOUR CODE HERE ***"
+        states = self.mdp.getStates()
+
+        for _ in range(self.iterations):
+            new_values = util.Counter()
+            for state in states:
+                actions = self.mdp.getPossibleActions(state)
+                next_utils = []
+                for action in actions:
+                    next_util = 0
+                    for next_state, next_prob in self.mdp.getTransitionStatesAndProbs(state, action):
+                        next_util = next_util + self.values[next_state] * next_prob
+                    next_utils.append(next_util)
+                if len(next_utils) == 0:
+                    next_utils.append(0)
+                new_values[state] = self.mdp.getReward(state) + self.discount * max(next_utils)
+            self.values = new_values
 
 
     def getValue(self, state):
@@ -53,13 +69,19 @@ class ValueIterationAgent(ValueEstimationAgent):
         """
         return self.values[state]
 
-
     def computeQValueFromValues(self, state, action):
         """
           Compute the Q-value of action in state from the
           value function stored in self.values.
         """
+
         "*** YOUR CODE HERE ***"
+        q_value = 0
+        for next_state, next_prob in self.mdp.getTransitionStatesAndProbs(state, action):
+            q_value = q_value + self.values[next_state] * next_prob
+        q_value = self.mdp.getReward(state) + q_value * self.discount
+        return q_value
+
         util.raiseNotDefined()
 
     def computeActionFromValues(self, state):
@@ -72,6 +94,12 @@ class ValueIterationAgent(ValueEstimationAgent):
           terminal state, you should return None.
         """
         "*** YOUR CODE HERE ***"
+        actions = self.mdp.getPossibleActions(state)
+        next_utils = [self.getQValue(state, action) for action in actions]
+        if len(next_utils) == 0:
+            return None
+        return actions[next_utils.index(max(next_utils))]
+
         util.raiseNotDefined()
 
     def getPolicy(self, state):

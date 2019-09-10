@@ -25,5 +25,20 @@ This project consists of four parts which correspond to four programming assignm
     - Designing a Heuristic for Solving Eating All Dots Problem Using A*
     - Suboptimal Search to Eat All Dots by Greedy Method
     - Mini Contest: Approximate a Short Path to Eat All Dots
+    
+**Score: 23/20** full credit including extra credit!
 
+## Project II
 
+### Markov Decision Process
+
+#### Value Iteration & Q-learning
+
+- valueIterationAgents.py
+    - implementing value iteration algorithm to solve fully observable MDPs
+- qlearningAgents.py
+    - implementing q-learning algorithm to solve partially observable MDPs
+
+*A large part of this project involves interactions of the agents in the grid world in which the actions they take are stochastic. Afterwards, the MDP model solved using q-learning is applied in the real pacman game to solve tiny maze problems with one ghost.*
+
+**Score: 22/20** full credit including extra credit!

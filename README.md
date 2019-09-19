@@ -22,7 +22,7 @@ This project consists of four parts which correspond to four programming assignm
 - searchAgents.py
     - Defining Corners Search Problem
     - Designing a Heuristic for Using A* in Corners Search Problem
-    - Designing a Heuristic for solving Eating All Dots Problem Using A*
+    - Designing a Heuristic for Solving Eating All Dots Problem Using A*
     - Suboptimal Search to Eat All Dots by Greedy Method
     - Mini Contest: Approximate a Short Path to Eat All Dots
     

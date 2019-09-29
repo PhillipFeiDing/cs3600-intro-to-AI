@@ -2,7 +2,7 @@
 
 *Special acknowledgements to UC Berkeley intially developing this project and providing all supporting features.*
 
-**This repo is private, so if for any reason this is visible to you but you are not the author there is a huge problem.**
+**This repo is private, so if for any reason this is visible to you but you are not the author or not grated access by the author please ignore.**
 
 *This repo will be public after I graduate.*
 

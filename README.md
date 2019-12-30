@@ -50,22 +50,22 @@ This project consists of four parts which correspond to four programming assignm
 ### Tracking by Reasoning Uncertainty
 
 #### Files Editted
-    - inference.py
-    - busterAgents.py
+- inference.py
+- busterAgents.py
 
 #### Topics
-    - Calculating Exact Probabilities
-    - Approximating Using Particle Filters
-    - Joint Particle Filter
+- Calculating Exact Probabilities
+- Approximating Using Particle Filters
+- Joint Particle Filter
 
 #### Questions
-    - Exact Inference Observation
-    - Exact Inference with Time Elapse
-    - Exact Inference Full Test
-    - Approximate Inference Observation
-    - Approximate Inference with Time Elapse
-    - Joint Particle Filter Observation
-    - Joint Particle Filter Elapse Time
+- Exact Inference Observation
+- Exact Inference with Time Elapse
+- Exact Inference Full Test
+- Approximate Inference Observation
+- Approximate Inference with Time Elapse
+- Joint Particle Filter Observation
+- Joint Particle Filter Elapse Time
 
 **Score: 25/17** full credit including extra credit!
   

@@ -69,3 +69,11 @@ This project consists of four parts which correspond to four programming assignm
 
 **Score: 25/17** full credit including extra credit!
   
+## Project IV
+
+### Optimization with Machine Learning
+
+### Details
+- see pdfs
+
+**### Score: 23/20** not a technical problem, but lost 1 point due to unclear description in the instruction pdf :(

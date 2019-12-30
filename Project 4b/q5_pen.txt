@@ -1,0 +1,35 @@
+// This is a truncated output produced by q5.py
+
+Start training pen data for 5 round(s) ...
+
+Round 1 :
+Starting training at time 23:21:15.898442 with 16 inputs, 10 outputs, [24] hidden layers, size of training set 7494, and size of test set 3498
+Finished after 72 iterations at time 23:25:04.799861 with training error 0.003039 and weight change 0.000080
+Feed Forward Test correctly classified 3129, incorrectly classified 369, test accuracy 0.894511
+
+Round 2 :
+Starting training at time 23:25:05.165059 with 16 inputs, 10 outputs, [24] hidden layers, size of training set 7494, and size of test set 3498
+Finished after 83 iterations at time 23:29:31.294701 with training error 0.002785 and weight change 0.000080
+Feed Forward Test correctly classified 3153, incorrectly classified 345, test accuracy 0.901372
+
+Round 3 :
+Starting training at time 23:29:31.656715 with 16 inputs, 10 outputs, [24] hidden layers, size of training set 7494, and size of test set 3498
+Finished after 68 iterations at time 23:33:07.154258 with training error 0.002817 and weight change 0.000080
+Feed Forward Test correctly classified 3143, incorrectly classified 355, test accuracy 0.898513
+
+Round 4 :
+Starting training at time 23:33:07.521633 with 16 inputs, 10 outputs, [24] hidden layers, size of training set 7494, and size of test set 3498
+Finished after 76 iterations at time 23:37:08.624113 with training error 0.002666 and weight change 0.000080
+Feed Forward Test correctly classified 3161, incorrectly classified 337, test accuracy 0.903659
+
+Round 5 :
+Starting training at time 23:37:09.002513 with 16 inputs, 10 outputs, [24] hidden layers, size of training set 7494, and size of test set 3498
+Finished after 68 iterations at time 23:40:43.550246 with training error 0.002960 and weight change 0.000080
+Feed Forward Test correctly classified 3108, incorrectly classified 390, test accuracy 0.888508
+
+All rounds finished.
+
+---------- Accuracy Statistics ----------
+Max               : 0.903659233848
+Average           : 0.897312750143
+Standard Deviation: 0.00535866187026

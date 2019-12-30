@@ -1,0 +1,35 @@
+// This is a truncated output produced by q5.py
+
+Start training car data for 5 round(s) ...
+
+Round 1 :
+Starting training at time 23:40:43.941662 with 21 inputs, 4 outputs, [16] hidden layers, size of training set 1528, and size of test set 200
+Finished after 112 iterations at time 23:41:29.409388 with training error 0.002292 and weight change 0.000080
+Feed Forward Test correctly classified 198, incorrectly classified 2, test accuracy 0.990000
+
+Round 2 :
+Starting training at time 23:41:29.422696 with 21 inputs, 4 outputs, [16] hidden layers, size of training set 1528, and size of test set 200
+Finished after 110 iterations at time 23:42:14.086387 with training error 0.001931 and weight change 0.000079
+Feed Forward Test correctly classified 195, incorrectly classified 5, test accuracy 0.975000
+
+Round 3 :
+Starting training at time 23:42:14.101469 with 21 inputs, 4 outputs, [16] hidden layers, size of training set 1528, and size of test set 200
+Finished after 111 iterations at time 23:42:59.871707 with training error 0.001729 and weight change 0.000079
+Feed Forward Test correctly classified 197, incorrectly classified 3, test accuracy 0.985000
+
+Round 4 :
+Starting training at time 23:42:59.885168 with 21 inputs, 4 outputs, [16] hidden layers, size of training set 1528, and size of test set 200
+Finished after 109 iterations at time 23:43:45.037693 with training error 0.002118 and weight change 0.000079
+Feed Forward Test correctly classified 198, incorrectly classified 2, test accuracy 0.990000
+
+Round 5 :
+Starting training at time 23:43:45.052321 with 21 inputs, 4 outputs, [16] hidden layers, size of training set 1528, and size of test set 200
+Finished after 124 iterations at time 23:44:35.803074 with training error 0.001682 and weight change 0.000080
+Feed Forward Test correctly classified 193, incorrectly classified 7, test accuracy 0.965000
+
+All rounds finished.
+
+---------- Accuracy Statistics ----------
+Max               : 0.99
+Average           : 0.9818624
+Standard Deviation: 0.00969535971483

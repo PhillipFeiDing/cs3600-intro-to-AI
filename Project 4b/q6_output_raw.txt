@@ -1,0 +1,233 @@
+-------------------- Training with 0 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.0
+Round 2: 0.0
+Round 3: 0.0
+Round 4: 0.0
+Round 5: 0.0
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.0
+Average           : 0.0
+Standard Deviation: 0.0
+
+-------------------- Training with 5 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.845340194397
+Round 2: 0.841909662664
+Round 3: 0.838479130932
+Round 4: 0.832761578045
+Round 5: 0.847913093196
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.847913093196
+Average           : 0.841280731847
+Standard Deviation: 0.00531578698647
+
+-------------------- Training with 10 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.887935963408
+Round 2: 0.893939393939
+Round 3: 0.895082904517
+Round 4: 0.880503144654
+Round 5: 0.873927958834
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.895082904517
+Average           : 0.88627787307
+Standard Deviation: 0.00806033019552
+
+-------------------- Training with 15 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.904802744425
+Round 2: 0.905946255003
+Round 3: 0.899942824471
+Round 4: 0.887364208119
+Round 5: 0.90251572327
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.905946255003
+Average           : 0.900114351058
+Standard Deviation: 0.00669857135259
+
+-------------------- Training with 20 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.903659233848
+Round 2: 0.899656946827
+Round 3: 0.907375643225
+Round 4: 0.90508862207
+Round 5: 0.90708976558
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.907375643225
+Average           : 0.90457404231
+Standard Deviation: 0.00280917518503
+
+-------------------- Training with 25 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.908233276158
+Round 2: 0.889079473985
+Round 3: 0.901943967982
+Round 4: 0.906232132647
+Round 5: 0.907375643225
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.908233276158
+Average           : 0.902572898799
+Standard Deviation: 0.00708469174205
+
+-------------------- Training with 30 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.905374499714
+Round 2: 0.890222984563
+Round 3: 0.901943967982
+Round 4: 0.892510005718
+Round 5: 0.906803887936
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.906803887936
+Average           : 0.899371069182
+Standard Deviation: 0.00676268327047
+
+-------------------- Training with 35 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.90251572327
+Round 2: 0.887650085763
+Round 3: 0.900800457404
+Round 4: 0.905946255003
+Round 5: 0.906803887936
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.906803887936
+Average           : 0.900743281875
+Standard Deviation: 0.0069047588974
+
+-------------------- Training with 40 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.903945111492
+Round 2: 0.904802744425
+Round 3: 0.943396226415
+Round 4: 0.897084048027
+Round 5: 0.905374499714
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.943396226415
+Average           : 0.910920526015
+Standard Deviation: 0.0165103682978
+
+-------------------- Training with 0 Perceptron(s) --------------------
+Start training car data for 5 round(s) ...
+Round 1: 0.68
+Round 2: 0.68
+Round 3: 0.68
+Round 4: 0.68
+Round 5: 0.68
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.68
+Average           : 0.68
+Standard Deviation: 0.0
+
+-------------------- Training with 5 Perceptron(s) --------------------
+Start training car data for 5 round(s) ...
+Round 1: 0.95
+Round 2: 0.965
+Round 3: 0.97
+Round 4: 0.955
+Round 5: 0.945
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.97
+Average           : 0.957
+Standard Deviation: 0.0092736184955
+
+-------------------- Training with 10 Perceptron(s) --------------------
+Start training car data for 5 round(s) ...
+Round 1: 0.955
+Round 2: 0.975
+Round 3: 0.97
+Round 4: 0.94
+Round 5: 0.97
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.975
+Average           : 0.962
+Standard Deviation: 0.0128840987267
+
+-------------------- Training with 15 Perceptron(s) --------------------
+Start training car data for 5 round(s) ...
+Round 1: 0.98
+Round 2: 0.965
+Round 3: 0.955
+Round 4: 0.94
+Round 5: 0.975
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.98
+Average           : 0.963
+Standard Deviation: 0.0143527000944
+
+-------------------- Training with 20 Perceptron(s) --------------------
+Start training car data for 5 round(s) ...
+Round 1: 0.965
+Round 2: 0.95
+Round 3: 0.95
+Round 4: 0.955
+Round 5: 0.955
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.965
+Average           : 0.955
+Standard Deviation: 0.00547722557505
+
+-------------------- Training with 25 Perceptron(s) --------------------
+Start training car data for 5 round(s) ...
+Round 1: 0.955
+Round 2: 0.945
+Round 3: 0.955
+Round 4: 0.955
+Round 5: 0.965
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.965
+Average           : 0.955
+Standard Deviation: 0.00632455532034
+
+-------------------- Training with 30 Perceptron(s) --------------------
+Start training car data for 5 round(s) ...
+Round 1: 0.95
+Round 2: 0.955
+Round 3: 0.965
+Round 4: 0.95
+Round 5: 0.95
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.965
+Average           : 0.954
+Standard Deviation: 0.00583095189485
+
+-------------------- Training with 35 Perceptron(s) --------------------
+Start training car data for 5 round(s) ...
+Round 1: 0.96
+Round 2: 0.955
+Round 3: 0.96
+Round 4: 0.95
+Round 5: 0.945
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.96
+Average           : 0.954
+Standard Deviation: 0.00583095189485
+
+-------------------- Training with 40 Perceptron(s) --------------------
+Start training car data for 5 round(s) ...
+Round 1: 0.945
+Round 2: 0.955
+Round 3: 0.955
+Round 4: 0.955
+Round 5: 0.95
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.955
+Average           : 0.952
+Standard Deviation: 0.004

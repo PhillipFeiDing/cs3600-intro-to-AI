@@ -1,0 +1,117 @@
+
+-------------------- Training with 0 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.0
+Round 2: 0.0
+Round 3: 0.0
+Round 4: 0.0
+Round 5: 0.0
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.0
+Average           : 0.0
+Standard Deviation: 0.0
+
+-------------------- Training with 5 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.946902654867
+Round 2: 0.964601769912
+Round 3: 0.982300884956
+Round 4: 0.637168141593
+Round 5: 0.964601769912
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.982300884956
+Average           : 0.899115044248
+Standard Deviation: 0.131450935417
+
+-------------------- Training with 10 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.920353982301
+Round 2: 0.920353982301
+Round 3: 0.946902654867
+Round 4: 0.929203539823
+Round 5: 0.964601769912
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.964601769912
+Average           : 0.936283185841
+Standard Deviation: 0.0171599286988
+
+-------------------- Training with 15 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.964601769912
+Round 2: 0.946902654867
+Round 3: 0.929203539823
+Round 4: 0.955752212389
+Round 5: 0.946902654867
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.964601769912
+Average           : 0.948672566372
+Standard Deviation: 0.0117402647446
+
+-------------------- Training with 20 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.955752212389
+Round 2: 0.964601769912
+Round 3: 0.964601769912
+Round 4: 0.893805309735
+Round 5: 0.955752212389
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.964601769912
+Average           : 0.946902654867
+Standard Deviation: 0.0268420369701
+
+-------------------- Training with 25 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.973451327434
+Round 2: 0.973451327434
+Round 3: 0.911504424779
+Round 4: 0.964601769912
+Round 5: 0.929203539823
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.973451327434
+Average           : 0.950442477876
+Standard Deviation: 0.0254030090167
+
+-------------------- Training with 30 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.964601769912
+Round 2: 0.938053097345
+Round 3: 0.982300884956
+Round 4: 0.929203539823
+Round 5: 1.0
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.962831858407
+Standard Deviation: 0.0264896098179
+
+-------------------- Training with 35 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.973451327434
+Round 2: 0.946902654867
+Round 3: 0.920353982301
+Round 4: 0.964601769912
+Round 5: 0.964601769912
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.973451327434
+Average           : 0.953982300885
+Standard Deviation: 0.0188974836319
+
+-------------------- Training with 40 Perceptron(s) --------------------
+Start training pen data for 5 round(s) ...
+Round 1: 0.964601769912
+Round 2: 0.955752212389
+Round 3: 0.982300884956
+Round 4: 0.955752212389
+Round 5: 0.938053097345
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.982300884956
+Average           : 0.959292035398
+Standard Deviation: 0.0143788290348

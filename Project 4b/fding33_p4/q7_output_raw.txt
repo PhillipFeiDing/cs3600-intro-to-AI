@@ -1,0 +1,2827 @@
+-------------------- Training with 0 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.5
+Average           : 0.5
+Standard Deviation: 0.0
+
+-------------------- Training with 1 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.25
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.25
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.5125
+Standard Deviation: 0.124373429638
+
+-------------------- Training with 2 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.25
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.525
+Standard Deviation: 0.108972473589
+
+-------------------- Training with 3 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.5125
+Standard Deviation: 0.0544862367943
+
+-------------------- Training with 4 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.525
+Standard Deviation: 0.075
+
+-------------------- Training with 5 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.5125
+Standard Deviation: 0.0544862367943
+
+-------------------- Training with 6 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.25
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.5
+Standard Deviation: 0.0790569415042
+
+-------------------- Training with 7 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.55
+Standard Deviation: 0.1
+
+-------------------- Training with 8 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.525
+Standard Deviation: 0.075
+
+-------------------- Training with 9 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.5
+Round 4: 0.25
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.25
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.525
+Standard Deviation: 0.134629120178
+
+-------------------- Training with 10 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.5625
+Standard Deviation: 0.108253175473
+
+-------------------- Training with 11 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.5625
+Standard Deviation: 0.108253175473
+
+-------------------- Training with 12 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 1.0
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.575
+Standard Deviation: 0.139194109071
+
+-------------------- Training with 13 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.5875
+Standard Deviation: 0.119242400177
+
+-------------------- Training with 14 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.575
+Standard Deviation: 0.114564392374
+
+-------------------- Training with 15 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.55
+Standard Deviation: 0.1
+
+-------------------- Training with 16 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6125
+Standard Deviation: 0.124373429638
+
+-------------------- Training with 17 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.55
+Standard Deviation: 0.1
+
+-------------------- Training with 18 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.25
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.5875
+Standard Deviation: 0.143069039278
+
+-------------------- Training with 19 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.575
+Standard Deviation: 0.114564392374
+
+-------------------- Training with 20 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.5625
+Standard Deviation: 0.108253175473
+
+-------------------- Training with 21 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 1.0
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 1.0
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6
+Standard Deviation: 0.165831239518
+
+-------------------- Training with 22 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.5625
+Standard Deviation: 0.108253175473
+
+-------------------- Training with 23 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6
+Standard Deviation: 0.122474487139
+
+-------------------- Training with 24 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 1.0
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.5625
+Standard Deviation: 0.134047566185
+
+-------------------- Training with 25 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 1.0
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6125
+Standard Deviation: 0.147372826532
+
+-------------------- Training with 26 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.25
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6
+Standard Deviation: 0.145773797371
+
+-------------------- Training with 27 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.55
+Standard Deviation: 0.1
+
+-------------------- Training with 28 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 1.0
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 1.0
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.65
+Standard Deviation: 0.165831239518
+
+-------------------- Training with 29 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.575
+Standard Deviation: 0.114564392374
+
+-------------------- Training with 30 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.25
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.55
+Standard Deviation: 0.12747548784
+
+-------------------- Training with 31 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 1.0
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 1.0
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6125
+Standard Deviation: 0.167238602003
+
+-------------------- Training with 32 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 1.0
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 1.0
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6375
+Standard Deviation: 0.167238602003
+
+-------------------- Training with 33 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6
+Standard Deviation: 0.122474487139
+
+-------------------- Training with 34 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 1.0
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.65
+Standard Deviation: 0.145773797371
+
+-------------------- Training with 35 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 1.0
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 1.0
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6875
+Standard Deviation: 0.155623744975
+
+-------------------- Training with 36 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 1.0
+Round 3: 0.5
+Round 4: 1.0
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 1.0
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 1.0
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6625
+Standard Deviation: 0.198037243972
+
+-------------------- Training with 37 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 1.0
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6375
+Standard Deviation: 0.147372826532
+
+-------------------- Training with 38 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 1.0
+Round 19: 0.5
+Round 20: 1.0
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.625
+Standard Deviation: 0.167705098312
+
+-------------------- Training with 39 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 1.0
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 1.0
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6875
+Standard Deviation: 0.155623744975
+
+-------------------- Training with 40 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 1.0
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 1.0
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.625
+Standard Deviation: 0.167705098312
+
+-------------------- Training with 41 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 1.0
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 1.0
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 1.0
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.65
+Standard Deviation: 0.183711730709
+
+-------------------- Training with 42 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 1.0
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.65
+Standard Deviation: 0.145773797371
+
+-------------------- Training with 43 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 1.0
+Round 15: 0.5
+Round 16: 1.0
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.65
+Standard Deviation: 0.165831239518
+
+-------------------- Training with 44 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 1.0
+Round 18: 1.0
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.65
+Standard Deviation: 0.165831239518
+
+-------------------- Training with 45 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 1.0
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6625
+Standard Deviation: 0.143069039278
+
+-------------------- Training with 46 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 1.0
+Round 17: 1.0
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.25
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6875
+Standard Deviation: 0.174553000547
+
+-------------------- Training with 47 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 1.0
+Round 11: 1.0
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 1.0
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 1.0
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.725
+Standard Deviation: 0.175
+
+-------------------- Training with 48 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6125
+Standard Deviation: 0.124373429638
+
+-------------------- Training with 49 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 1.0
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 1.0
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 1.0
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.7
+Standard Deviation: 0.169558249578
+
+-------------------- Training with 50 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 1.0
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6375
+Standard Deviation: 0.147372826532
+
+-------------------- Training with 51 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 1.0
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 1.0
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.65
+Standard Deviation: 0.165831239518
+
+-------------------- Training with 52 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.675
+Standard Deviation: 0.114564392374
+
+-------------------- Training with 53 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 1.0
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 1.0
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 1.0
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 1.0
+Round 18: 0.75
+Round 19: 1.0
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.75
+Standard Deviation: 0.176776695297
+
+-------------------- Training with 54 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 1.0
+Round 3: 0.75
+Round 4: 1.0
+Round 5: 0.5
+Round 6: 1.0
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6875
+Standard Deviation: 0.174553000547
+
+-------------------- Training with 55 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 1.0
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6625
+Standard Deviation: 0.143069039278
+
+-------------------- Training with 56 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 1.0
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 1.0
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 1.0
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.7
+Standard Deviation: 0.169558249578
+
+-------------------- Training with 57 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.25
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 1.0
+Round 13: 0.5
+Round 14: 1.0
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 1.0
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6125
+Standard Deviation: 0.201168461743
+
+-------------------- Training with 58 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 1.0
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 1.0
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.675
+Standard Deviation: 0.160078105936
+
+-------------------- Training with 59 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 1.0
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 1.0
+Round 16: 1.0
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.675
+Standard Deviation: 0.178535710714
+
+-------------------- Training with 60 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.25
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.65
+Standard Deviation: 0.145773797371
+
+-------------------- Training with 61 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 1.0
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6875
+Standard Deviation: 0.134047566185
+
+-------------------- Training with 62 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.675
+Standard Deviation: 0.114564392374
+
+-------------------- Training with 63 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 1.0
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6625
+Standard Deviation: 0.143069039278
+
+-------------------- Training with 64 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 1.0
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6375
+Standard Deviation: 0.147372826532
+
+-------------------- Training with 65 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 1.0
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.675
+Standard Deviation: 0.139194109071
+
+-------------------- Training with 66 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.7125
+Standard Deviation: 0.0892678553568
+
+-------------------- Training with 67 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 1.0
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.675
+Standard Deviation: 0.139194109071
+
+-------------------- Training with 68 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6
+Standard Deviation: 0.122474487139
+
+-------------------- Training with 69 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 1.0
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.65
+Standard Deviation: 0.145773797371
+
+-------------------- Training with 70 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6625
+Standard Deviation: 0.119242400177
+
+-------------------- Training with 71 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6375
+Standard Deviation: 0.124373429638
+
+-------------------- Training with 72 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 1.0
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6125
+Standard Deviation: 0.147372826532
+
+-------------------- Training with 73 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6625
+Standard Deviation: 0.119242400177
+
+-------------------- Training with 74 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 1.0
+Round 13: 1.0
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6625
+Standard Deviation: 0.163458710383
+
+-------------------- Training with 75 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.625
+Standard Deviation: 0.125
+
+-------------------- Training with 76 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 1.0
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 1.0
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 1.0
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.625
+Standard Deviation: 0.185404962177
+
+-------------------- Training with 77 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 1.0
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6375
+Standard Deviation: 0.147372826532
+
+-------------------- Training with 78 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 1.0
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.625
+Standard Deviation: 0.147901994577
+
+-------------------- Training with 79 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 1.0
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6125
+Standard Deviation: 0.147372826532
+
+-------------------- Training with 80 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.625
+Standard Deviation: 0.125
+
+-------------------- Training with 81 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 1.0
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6
+Standard Deviation: 0.145773797371
+
+-------------------- Training with 82 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 1.0
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6375
+Standard Deviation: 0.147372826532
+
+-------------------- Training with 83 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 1.0
+Round 10: 1.0
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.65
+Standard Deviation: 0.165831239518
+
+-------------------- Training with 84 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 1.0
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.6
+Standard Deviation: 0.145773797371
+
+-------------------- Training with 85 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 1.0
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.65
+Standard Deviation: 0.145773797371
+
+-------------------- Training with 86 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 1.0
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.675
+Standard Deviation: 0.139194109071
+
+-------------------- Training with 87 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.675
+Standard Deviation: 0.114564392374
+
+-------------------- Training with 88 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.625
+Standard Deviation: 0.125
+
+-------------------- Training with 89 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.625
+Standard Deviation: 0.125
+
+-------------------- Training with 90 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6125
+Standard Deviation: 0.124373429638
+
+-------------------- Training with 91 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6375
+Standard Deviation: 0.124373429638
+
+-------------------- Training with 92 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.75
+Round 5: 0.75
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6125
+Standard Deviation: 0.124373429638
+
+-------------------- Training with 93 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.5
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6375
+Standard Deviation: 0.124373429638
+
+-------------------- Training with 94 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 1.0
+Round 6: 0.5
+Round 7: 0.75
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.5
+Round 15: 0.5
+Round 16: 0.5
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.625
+Standard Deviation: 0.147901994577
+
+-------------------- Training with 95 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.5
+Round 17: 0.75
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6625
+Standard Deviation: 0.119242400177
+
+-------------------- Training with 96 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.75
+Round 9: 0.5
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.75
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6
+Standard Deviation: 0.122474487139
+
+-------------------- Training with 97 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.5
+Round 2: 0.75
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.5
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.5
+Round 20: 0.75
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.5875
+Standard Deviation: 0.119242400177
+
+-------------------- Training with 98 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.75
+Round 5: 0.5
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 1.0
+Round 11: 0.75
+Round 12: 0.75
+Round 13: 0.5
+Round 14: 0.75
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.75
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 1.0
+Average           : 0.7125
+Standard Deviation: 0.119242400177
+
+-------------------- Training with 99 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.75
+Round 3: 0.75
+Round 4: 0.5
+Round 5: 0.5
+Round 6: 0.5
+Round 7: 0.5
+Round 8: 0.5
+Round 9: 0.75
+Round 10: 0.5
+Round 11: 0.75
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.6
+Standard Deviation: 0.122474487139
+
+-------------------- Training with 100 Perceptron(s) --------------------
+Start training pen data for 20 round(s) ...
+Round 1: 0.75
+Round 2: 0.5
+Round 3: 0.5
+Round 4: 0.5
+Round 5: 0.75
+Round 6: 0.75
+Round 7: 0.75
+Round 8: 0.75
+Round 9: 0.75
+Round 10: 0.75
+Round 11: 0.5
+Round 12: 0.5
+Round 13: 0.5
+Round 14: 0.5
+Round 15: 0.75
+Round 16: 0.75
+Round 17: 0.5
+Round 18: 0.5
+Round 19: 0.75
+Round 20: 0.5
+All rounds finished.
+---------- Accuracy Statistics ----------
+Max               : 0.75
+Average           : 0.625
+Standard Deviation: 0.125

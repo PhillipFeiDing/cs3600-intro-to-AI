@@ -76,4 +76,4 @@ This project consists of four parts which correspond to four programming assignm
 ### Details
 - see pdfs
 
-**### Score: 23/20** not a technical problem, but lost 1 point due to unclear description in the instruction pdf :(
+**Score: 23/20** not a technical problem, but lost 1 point due to unclear description in the instruction pdf :(

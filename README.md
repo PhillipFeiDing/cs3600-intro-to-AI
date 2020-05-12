@@ -2,7 +2,7 @@
 
 *Special acknowledgements to UC Berkeley intially developing this project and providing all supporting features.*
 
-<span style="color: red; font-weight: bolder;">Warning: I do guarantee the correctness of the solution since it's graded by the autograder, and I know this course does not change its assignments across terms. However, please respect the honor code  regulations, and I don't take any responsibility if you choose to make any violation.</span>
+**Warning: I do guarantee the correctness of the solution since it's graded by the autograder, and I know this course does not change its assignments across terms. However, please respect the honor code  regulations, and I don't take any responsibility if you choose to make any violation.**
 
 # Introduction
 

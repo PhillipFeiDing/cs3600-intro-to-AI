@@ -2,9 +2,7 @@
 
 *Special acknowledgements to UC Berkeley intially developing this project and providing all supporting features.*
 
-**This repo is private, so if for any reason this is visible to you but you are not the author or not grated access by the author please ignore.**
-
-*This repo will be public after I graduate.*
+<span style="color: red; font-weight: bolder;">Warning: I do guarantee the correctness of the solution since it's graded by the autograder, and I know this course does not change its assignments across terms. However, please respect the honor code  regulations, and I don't take any responsibility if you choose to make any violation.</span>
 
 # Introduction
 
@@ -26,7 +24,7 @@ This project consists of four parts which correspond to four programming assignm
     - Suboptimal Search to Eat All Dots by Greedy Method
     - Mini Contest: Approximate a Short Path to Eat All Dots
     
-**Score: 23/20** full credit including extra credit!
+**Score: 23/20** full credit including extra credit! I believe no one has ever earned full-credit for the mini-contest question!
 
 ## Project II
 
